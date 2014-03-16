@@ -1,0 +1,22 @@
+<h1>Hello</h1>
+
+<p><%= 2390840 * 239048209348 %>
+
+<% target = "world" %>
+<%= "Hello #{target}" %>
+<br>
+<% @array.each do |n| %>
+<%= n %><br>
+<% end %>
+
+<a href="/demo/index">Index page 1</a><br>
+
+<%= link_to("Index page 2", {:action => 'index'}) %>
+
+<br>
+
+ID: <%= params[:id] %><br>
+ID: <%= @id %><br>
+Next Page: <%= @page + 1%> <br>
+<hr>
+<p><%= params.inspect %> 
